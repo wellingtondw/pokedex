@@ -1,12 +1,12 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const Test: React.FC = () => {
+const Pokedex: React.FC = () => {
   return (
     <View>
-      <Text>Hello World</Text>
+      <Text>Pokedex</Text>
     </View>
   );
 };
 
-export default Test;
+export default Pokedex;

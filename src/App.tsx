@@ -1,8 +1,11 @@
+import 'react-native-gesture-handler';
+
 import React, { useEffect } from 'react';
 import SplashScreen from 'react-native-splash-screen';
 import { StatusBar, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 
-import Test from './components/test';
+import Routes from './routes';
 
 const App = () => {
   useEffect(() => {
@@ -10,10 +13,10 @@ const App = () => {
   }, []);
 
   return (
-    <View>
+    <NavigationContainer>
       <StatusBar barStyle="dark-content" />
-      <Test />
-    </View>
+      <Routes />
+    </NavigationContainer>
   );
 };
 
