@@ -1,13 +1,14 @@
 import React from 'react';
-import { Text, View } from 'react-native';
 import { Link } from '@react-navigation/native';
+
+import { Container, Text } from './styles';
 
 const Home: React.FC = () => {
   return (
-    <View>
+    <Container>
       <Text>Home</Text>
       <Link to="/Pokedex">Pokedex</Link>
-    </View>
+    </Container>
   );
 };
 
