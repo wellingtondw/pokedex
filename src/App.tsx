@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import SplashScreen from 'react-native-splash-screen';
-import { View, Text, StatusBar } from 'react-native';
+import { StatusBar, View } from 'react-native';
+
+import Test from './components/test';
 
 const App = () => {
   useEffect(() => {
@@ -10,7 +12,7 @@ const App = () => {
   return (
     <View>
       <StatusBar barStyle="dark-content" />
-      <Text>Hello World</Text>
+      <Test />
     </View>
   );
 };
