@@ -10,7 +10,12 @@ describe('<CustomText />', () => {
     );
 
     expect(getByText('What Pokemon are you looking for?').props.style).toEqual([
-      { fontSize: 30, lineHeight: 42, color: '#303943' },
+      {
+        fontSize: 30,
+        lineHeight: 42,
+        color: '#303943',
+        fontFamily: 'CircularStd-Bold',
+      },
     ]);
   });
 });

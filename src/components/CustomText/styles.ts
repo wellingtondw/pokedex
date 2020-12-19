@@ -6,6 +6,7 @@ const textModifiers = {
     font-size: 30px;
     line-height: 42px;
     color: #303943;
+    font-family: 'CircularStd-Bold';
   `,
 };
 
