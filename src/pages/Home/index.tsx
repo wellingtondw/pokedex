@@ -1,13 +1,12 @@
 import React from 'react';
-import { Link } from '@react-navigation/native';
+import { Container } from '../../styles/common';
 
-import { Container, Text } from './styles';
+import CustomText from '../../components/CustomText';
 
 const Home: React.FC = () => {
   return (
     <Container>
-      <Text>Home</Text>
-      <Link to="/Pokedex">Pokedex</Link>
+      <CustomText>What Pokemon are you looking for?</CustomText>
     </Container>
   );
 };

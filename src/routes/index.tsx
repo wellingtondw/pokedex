@@ -9,7 +9,13 @@ const App = createStackNavigator();
 const AppRoutes: React.FC = () => {
   return (
     <App.Navigator>
-      <App.Screen name="Home" component={Home} />
+      <App.Screen
+        name="Home"
+        component={Home}
+        options={{
+          headerShown: false,
+        }}
+      />
       <App.Screen name="Pokedex" component={Pokedex} />
     </App.Navigator>
   );
