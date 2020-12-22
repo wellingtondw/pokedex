@@ -9,7 +9,7 @@ export type InputProps = {
 
 const Input: React.FC<InputProps> = ({ search = false, ...rest }) => {
   return (
-    <S.Container>
+    <S.Container testID="container">
       {search && <S.Icon name="search" size={20} />}
       <S.TextInput search={search} {...rest} placeholderTextColor="#ccc" />
     </S.Container>
