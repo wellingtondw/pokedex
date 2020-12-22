@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react-native';
 
-import Input from '../../../components/Input';
+import Input from '.';
 
 describe('<CustomText />', () => {
   it('should render correctly', () => {

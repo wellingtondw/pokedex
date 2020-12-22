@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react-native';
 
-import CustomText from '../../../components/CustomText';
+import CustomText from '.';
 
 describe('<CustomText />', () => {
   it('should render primary format', () => {
