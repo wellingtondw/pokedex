@@ -8,6 +8,9 @@ const textModifiers = {
     color: #303943;
     font-family: 'CircularStd-Bold';
   `,
+  secondary: () => css`
+    color: #000;
+  `,
 };
 
 export const Text = styled.Text<CustomTextProps>`
