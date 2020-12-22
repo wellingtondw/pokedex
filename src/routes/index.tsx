@@ -8,7 +8,13 @@ const App = createStackNavigator();
 
 const AppRoutes: React.FC = () => {
   return (
-    <App.Navigator>
+    <App.Navigator
+      screenOptions={{
+        cardStyle: {
+          backgroundColor: '#fff',
+        },
+      }}
+    >
       <App.Screen
         name="Home"
         component={Home}
